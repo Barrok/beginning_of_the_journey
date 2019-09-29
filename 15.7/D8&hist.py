@@ -33,7 +33,7 @@ for value in range(2, max_result + 1):
 hist = pg.Bar()
 hist.force_uri_protocol = 'http'
 
-#hist exist, but it's 'raw' and now i ahve to put some information on it
+#hist exist, but it's 'raw' and now i have to put some information on it
 hist.title = 'Result of 10k rolls of 2 octagonal dices'
 hist.x_labels = ['2', '3', '4', '5', '6', '7','8','9','10','11','12','13','14','15','16']
 hist.x_title = 'Result'
