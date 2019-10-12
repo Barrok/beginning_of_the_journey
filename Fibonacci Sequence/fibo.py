@@ -14,10 +14,11 @@ def fibo(n):
 
         return r2
 
-num = input("Enter a number you want Fibonacci sequence to:")
+num = input("Enter a natural number: ")
 
 fibo_seq = []
 for n in range(0, int(num)+1):
     fibo_seq.append(fibo(n))
 
+print("Here's your Fibonacci sequence:")
 print(fibo_seq)
