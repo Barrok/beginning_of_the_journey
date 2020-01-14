@@ -32,5 +32,5 @@ invM = (invdet * adjM) % mod
 unit_m = [[1, 0], 
           [0, 1]]
 
-#If it says true, then matrix has been inversed right
-print((np.dot(invM, M) % m == unit_m).all())
+#If it says true, then algorithm works right
+print((np.dot(invM, M) % mod == unit_m).all())
